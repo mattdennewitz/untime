@@ -1,0 +1,18 @@
+[project]
+name = "untime"
+version = "0.1.0"
+description = "Python code complexity measurement"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "click>=8.1.7",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "ruff>=0.6.1",
+]
